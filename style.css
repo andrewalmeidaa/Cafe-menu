@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f2f5;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-color: #d3d3d3;
+    max-width: 600px;
+}
+h1, h3{
+    text-align: center;
+   
+    padding: 10px;
+}
+
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px 30px 10px 30px;
+
+    font-size: 20px;
+    
+}
+
+.comida{
+    text-align: left;
+    width: 75%;
+}
+
+.valor{
+    text-align: right;
+    width: 25%;
+}
+
+hr{
+    height: 5px;
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+    border: none;
+}
+
+p{
+    text-align: center;
+}
